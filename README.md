@@ -86,6 +86,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\EasyPatch.ps1 -Source 
 - 실제 북미판 ISO로 원본 트로피·한글 트로피 두 경우 모두 적용을 완료했고, 결과 ISO 안 14개 파일을 해시로 검사했습니다. 별도 ISO 분석기로 ISO9660·Joliet 양쪽에서 다시 읽어 일치를 확인했습니다. (`ISO-PATCHER-VERIFICATION.json`)
 - 새 사본 / 원래 위치 적용, 실패 시 원본 복원 흐름을 시험했습니다. (`EASY-PATCHER-VERIFICATION.json`)
 - 결과 ISO는 항상 같은 바이트로 만들어집니다. 원본 트로피 `228e1cb9…846786d`, 한글 트로피 `1c448458…de0f427` (SHA-256).
+- EXE판도 실제 ISO로 "원래 위치 적용 + 한글 트로피"를 시험해, 결과 ISO 해시가 PowerShell판과 같고 원본 백업이 남는 것을 확인했습니다.
 - 게임 전체 구간, 이번 ISO 결과물의 RPCS3·PS3 실기 부팅은 검증하지 않았습니다.
 
 ## 저장소 구성
