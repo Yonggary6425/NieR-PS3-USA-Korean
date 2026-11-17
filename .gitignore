@@ -1,0 +1,10 @@
+*.iso
+*.iso.*
+*.SDAT
+*.sdat
+*.cpk
+*.TRP
+PS3_GAME/
+PS3_UPDATE/
+.nier-*
+exe-src/*.exe

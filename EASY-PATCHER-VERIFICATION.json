@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-09",
+  "revision": "drag-and-drop-copy-or-replace",
+  "unitChecks": [
+    {
+      "backupPreserved": true,
+      "autoOutput": true,
+      "collisionAvoided": true,
+      "replacement": true,
+      "kind": "iso"
+    },
+    {
+      "backupPreserved": true,
+      "autoOutput": true,
+      "collisionAvoided": true,
+      "replacement": true,
+      "kind": "folder"
+    },
+    {
+      "kind": "iso",
+      "injectedFailureRollback": true
+    },
+    {
+      "kind": "folder",
+      "injectedFailureRollback": true
+    }
+  ],
+  "orchestrationChecks": {
+    "flows": [
+      {
+        "passed": true,
+        "engine": "stub - orchestration only",
+        "mode": "copy",
+        "kind": "iso"
+      },
+      {
+        "passed": true,
+        "engine": "stub - orchestration only",
+        "mode": "replace",
+        "kind": "iso"
+      },
+      {
+        "passed": true,
+        "engine": "stub - orchestration only",
+        "mode": "copy",
+        "kind": "folder"
+      },
+      {
+        "passed": true,
+        "engine": "stub - orchestration only",
+        "mode": "replace",
+        "kind": "folder"
+      }
+    ],
+    "twoMenusWithoutOutputPrompt": true,
+    "engineFailurePreservesOriginal": true
+  },
+  "realIsoReplacement": {
+    "passed": true,
+    "trophyMode": "original",
+    "fileCount": 14,
+    "isoSha256": "228e1cb9af34117b921792bc5b5ca3c9e41b3b197986f39f53e0e65ae846786d",
+    "originalBackupCreated": true,
+    "runtimeBootTested": false
+  },
+  "notes": [
+    "Four small orchestration tests use a stub engine, not real game encryption.",
+    "The real ISO replacement test uses the full native patch engine and validates all 14 files before replacement.",
+    "Previously validated ISO engine and game translation payload are unchanged."
+  ]
+}

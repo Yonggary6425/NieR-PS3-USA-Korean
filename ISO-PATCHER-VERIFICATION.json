@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "revision": "native-iso-support",
+  "date": "2026-11-08",
+  "windowsPowerShell": "5.1",
+  "variants": [
+    {
+      "trophyMode": "original",
+      "fullIsoApplyPassed": true,
+      "fileCount": 14,
+      "isoSha256": "228e1cb9af34117b921792bc5b5ca3c9e41b3b197986f39f53e0e65ae846786d",
+      "isoBytes": 6376456192,
+      "sdatSha256": "77f12a3b1ad333bfe432bccb1ac3a10818b1d5db2276c194177dcf0e70b96902",
+      "trophySha256": "dc02f231268ae5333894359c10e67dc3bf8a7028791af0d795692911d71127d2",
+      "unchangedFilesVerified": true,
+      "independentIso9660AndJolietChecks": 28
+    },
+    {
+      "trophyMode": "korean",
+      "fullIsoApplyPassed": true,
+      "fileCount": 14,
+      "isoSha256": "1c44845848930e7e620ea1f45c7ebc3cb59ba80f3c7548fffab1554efde0f427",
+      "isoBytes": 6376456192,
+      "sdatSha256": "77f12a3b1ad333bfe432bccb1ac3a10818b1d5db2276c194177dcf0e70b96902",
+      "trophySha256": "681d942b326a289edfc86a9140fe6a636e21f0faa99c8b17a6cc4b6a10caf405",
+      "unchangedFilesVerified": true,
+      "independentIso9660AndJolietChecks": 28
+    }
+  ],
+  "guards": {
+    "encryptedContentRejected": true,
+    "guards": [
+      {
+        "name": "same-path",
+        "passed": true
+      },
+      {
+        "name": "existing-output",
+        "passed": true
+      },
+      {
+        "name": "wrong-extension",
+        "passed": true
+      },
+      {
+        "name": "wrong-game",
+        "passed": true
+      },
+      {
+        "name": "encrypted-content",
+        "passed": true
+      }
+    ],
+    "existingOutputPreserved": true
+  },
+  "fixtureFiles": 81,
+  "fixtureIndependentChecks": 162,
+  "independentVerifier": "pycdlib (development verification only; not required by the patcher)",
+  "gameRuntimeTested": false,
+  "ps3HardwareTested": false,
+  "sourceOpenedReadOnly": true
+}

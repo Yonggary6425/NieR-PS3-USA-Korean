@@ -1,0 +1,37 @@
+{
+  "build": "v7-subtitle",
+  "cpkSha256": "ad238fdb7e567bea6e8540c50bf9c0d5a2ccc417680aefbb8ad31ce79e3e5763",
+  "sdatSha256": "77f12a3b1ad333bfe432bccb1ac3a10818b1d5db2276c194177dcf0e70b96902",
+  "trophySha256": "dc02f231268ae5333894359c10e67dc3bf8a7028791af0d795692911d71127d2",
+  "captionSizeFieldsChanged": 356,
+  "captionSizes": {
+    "26": 28,
+    "20": 22
+  },
+  "fontMetricsUnchanged": true,
+  "nonHangulPixelsUnchanged": true,
+  "captionWordsAndTimingUnchanged": true,
+  "longCaptionRowsWrapped": 4,
+  "sdatBlockHashMismatches": 0,
+  "allScreensVerified": false,
+  "hardwareVerified": false,
+  "fontPaddingChecks": [
+    {
+      "font": "FONT/FONT_VRAM.PS3.BIN",
+      "glyphs": 1161,
+      "previousTopEdgeGlyphs": 1158,
+      "newEdgeGlyphs": 0,
+      "transparentMarginPixels": 2,
+      "metricsUnchanged": true
+    },
+    {
+      "font": "FONT/FONT_VRAM_JP.PS3.BIN",
+      "glyphs": 1161,
+      "previousTopEdgeGlyphs": 1158,
+      "newEdgeGlyphs": 0,
+      "transparentMarginPixels": 2,
+      "metricsUnchanged": true
+    }
+  ],
+  "deltaCpkReproductionPassed": true
+}
