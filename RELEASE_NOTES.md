@@ -3,12 +3,11 @@
 PS3 북미 디스크판 **NIER (BLUS30481 / 1.00)** 비공식 한글패치입니다. 아버지 니어가 주인공이며 영어 음성은 그대로입니다.
 
 ## 다운로드
-아래 Assets에서 하나를 받으세요. 결과물은 같습니다.
-- `NieR-PS3-USA-Korean-v1.0-EXE.zip`: 실행파일 하나로 끝나는 간편판 (권장)
-- `NieR-PS3-USA-Korean-v1.0-PowerShell.zip`: 배치파일 + PowerShell 스크립트판
+아래 Assets에서 받으세요.
+- `NieR-PS3-USA-Korean-v1.0-PowerShell.zip`: 패처 (배치파일 + PowerShell 스크립트)
 - `SHA256SUMS.txt`: 다운로드 파일 해시
 
-Source code (zip)에는 실행파일이 없으니 위 ZIP을 받으세요.
+Source code (zip)에는 실행용 배치파일이 없으니 위 ZIP을 받으세요.
 
 ## 주요 내용
 - **ISO와 게임 폴더 모두 지원**: 원본 ISO → 새 한글 ISO, 원본 폴더 → 새 한글 폴더
@@ -26,7 +25,7 @@ Source code (zip)에는 실행파일이 없으니 위 ZIP을 받으세요.
 
 ## 사용 방법
 1. ZIP의 압축을 전부 풀어 게임 폴더 밖에 둡니다.
-2. 원본 ISO 또는 게임 폴더를 `NieR-PS3-USA-Korean-Patcher.exe`(EXE판) 또는 `Apply-Korean-Patch.bat`(PowerShell판) 위로 끌어다 놓습니다.
+2. 원본 ISO 또는 게임 폴더를 `Apply-Korean-Patch.bat` 위로 끌어다 놓습니다.
 3. 적용 방식(1: 새 사본 / 2: 원래 위치)과 트로피(1: 원본 / 2: 한글)를 고릅니다. Enter만 누르면 새 사본 + 원본 트로피입니다.
 4. 초록색 **완료** 메시지를 확인합니다.
 
@@ -35,12 +34,10 @@ Source code (zip)에는 실행파일이 없으니 위 ZIP을 받으세요.
 - 여유 공간: ISO 작업 최소 32 GiB, 폴더 작업 최소 18 GiB (ISO는 NTFS/exFAT 드라이브)
 - 암호화·분할 ISO, 다른 지역·버전, 일본판 레플리칸트, Xbox 360판은 지원하지 않습니다.
 - **PS3 실기**는 원본 트로피를 고르세요. 한글 트로피는 실기에서 80030C18 오류가 납니다.
-- EXE는 서명되지 않은 개인 제작 파일이라 SmartScreen 경고가 뜰 수 있습니다. 걱정되면 PowerShell판을 쓰세요.
 
 ## 검증 범위
 - 실제 북미판 ISO로 두 트로피 옵션 모두 적용하고, 결과 ISO 14개 파일과 ISO9660·Joliet 구조를 검사했습니다.
 - 결과 ISO SHA-256: 원본 트로피 `228e1cb9af34117b921792bc5b5ca3c9e41b3b197986f39f53e0e65ae846786d`, 한글 트로피 `1c44845848930e7e620ea1f45c7ebc3cb59ba80f3c7548fffab1554efde0f427`
-- EXE판도 실제 ISO로 "원래 위치 적용 + 한글 트로피"를 시험해, 결과 ISO 해시가 위 값과 같고 원본 백업이 남는 것을 확인했습니다.
 - 게임 전체 구간과 이번 ISO 결과물의 RPCS3·실기 부팅은 검증하지 않았습니다. 해 보신 분은 결과를 알려 주세요.
 
 ## 제보
@@ -48,6 +45,6 @@ Source code (zip)에는 실행파일이 없으니 위 ZIP을 받으세요.
 
 ## 크레딧
 - 제작: 용가리 ([@Yonggary6425](https://github.com/Yonggary6425))
-- 번역·패처 제작 보조: OpenAI Codex / EXE 적용기: Claude (Anthropic)
+- 번역·패처 제작 보조: OpenAI Codex
 
 NIER의 저작권은 SQUARE ENIX에 있습니다. 이 패치는 비공식 팬 번역이며, 정품을 소유한 분만 사용해 주세요.
